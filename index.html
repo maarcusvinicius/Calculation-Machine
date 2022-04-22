@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="form-box">
+      <h2>Calculation Machine</h2>
+      <form>
+        <div class="numberOne-box">
+          <input type="number" name="" id="PrimeiroCampo" placeholder="" />
+          <label for="InputCampoUm">Primeiro número</label>
+        </div>
+        <div class="numberTwo-box">
+          <input type="number" name="" id="SegundoCampo" placeholder="" />
+          <label for="InputCampoDois">Segundo número</label>
+        </div>
+        <div class="check-box">
+          <input id="confirm" type="checkbox" class="form-check-input" />
+          <label for="Check1" class="">Clique para continuar</label>
+        </div>
+        <button class="calc-box" id="botao" onclick="v()" type="submit">
+          Calcular
+        </button>
+        <button class="resert-box">Resert</button>
+      </form>
+      <br />
+      <div id="card1" class="card">
+        <div class="card-body">
+          <h6 id="resultado"></h6>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
