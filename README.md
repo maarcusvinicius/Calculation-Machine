@@ -4,4 +4,4 @@ Já está feito:
 
 Quero fazer:
 
-- CSS básico, sem utilizar Bootstrap;
+- (TERMINAR)CSS básico, sem utilizar Bootstrap;
